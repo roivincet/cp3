@@ -1,0 +1,310 @@
+* {
+  box-sizing: border-box;
+}
+*, *:after, *:before {
+  padding:0;
+  margin:0;
+  font-family: 'Chivo', sans-serif;
+
+}
+ 
+html, body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+background: #667db6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.card-img-top {
+	width: 100%;
+	height: auto;
+}
+
+#palitParallaxContainer {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+#cardNgAdmin {
+    margin-top: 2rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Chivo', sans-serif;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.45);
+}
+
+
+#editProfileModal {
+    align-items: center;
+}
+
+
+#tableNgAllTransactions {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding-left: 1.2rem;
+  padding-top: 2rem;
+}
+
+#tableNgAllTransactions td, #tableNgAllTransactions th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tableNgAllTransactions tr:nth-child(even){background-color: #f2f2f2;}
+
+#tableNgAllTransactions tr:hover {background-color: #ddd;}
+
+#tableNgAllTransactions th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#tableUnderCreate {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding-left: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+#tableUnderCreate td, #tableUnderCreate th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tableUnderCreate tr:nth-child(even){background-color: tomato;}
+
+#tableUnderCreate tr:hover {background-color: olive;}
+
+#tableUnderCreate th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+#tableNgMyTransactions {
+  font-family: "Righteous", Arial, Chivo, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding-left: 1.2rem;
+  padding-top: 2rem;
+}
+
+#tableNgMyTransactions td, #tableNgMyTransactions th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tableNgMyTransactions tr:nth-child(even){background-color: #f2f2f2;}
+
+#tableNgMyTransactions tr:hover {background-color: #F9DC66;}
+
+#tableNgMyTransactions th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #67D5D0;
+  color: white;
+}
+
+#myForm .btn {
+	margin-right: 20px;
+	float: left;
+}
+
+#itemholder {
+	margin-top: 1rem;
+    margin-bottom: 10rem;
+}
+
+
+#loginCard {
+  margin-top: 2rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Chivo', sans-serif;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.45);
+}
+
+#addToCat {
+	padding: 10px;
+	background-color: blue;
+	border-radius: 10px;
+	text-decoration: none;
+	color: white;
+    align-self: center;
+}
+
+/*change this later*/
+.ribbon-top-right span {
+    right: -60px !important;
+    top: 30px;
+    transform: rotate(45deg);
+}
+.ribbon span {
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 15px 0;
+    background-color: #1E242C;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: transparent;
+}
+
+.ribbon span, :after, :before {
+    box-sizing: border-box;
+}
+/*change this later*/
+
+
+ 
+ 
+
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  100% {
+    transform:translateY(0rem);
+    opacity: 1;
+  }
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}  
+
+.navbar {
+    
+    background-color: #003D53 !important;
+}
+
+
+#editngcontainer {
+  margin-top: 2rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.45);
+}
+
+
+@media screen and (max-width: 768px) {
+  html, body {
+    font-size: 12px;
+  }
+}
+
+
+
+@media (min-width: 992px) {
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+
+#vertical-column-hover {
+  position:relative;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+  list-style:none;
+  width:955px;
+  height:450px;
+  border-radius:3px;
+  overflow:hidden;
+  box-shadow:1px 1px 3px 1px;
+}
+
+#listItem  {
+  position:relative;
+  width:190px;
+  height:450px;
+  float:left;
+  border-left:1px solid white;
+  transition:all 0.7s;
+  box-shadow:-2px 0 10px 2px;
+}
+ 
+#vertical-column-hover #listItem:first-child {
+  border:none;
+}
+ 
+#spanNgUL {
+  display:block;
+  position:absolute;
+  bottom:0;
+  width:50%;
+  color:white;
+  white-space:nowrap;
+  padding:20px;
+  background: linear-gradient(to right,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); 
+  font-weight: 700;
+ 
+}
+ 
+#imgNgUL {
+  width:800px;
+  height:450px;
+}
+ 
+#vertical-column-hover:hover #listItem {
+  width:50px;  
+}
+ 
+ 
+#vertical-column-hover #listItem:hover {
+  width:750px;
+}

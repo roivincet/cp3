@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.card-img-top {
+	width: 50%;
+	height: auto;
+}
+
+#myForm .btn {
+	margin-right: 20px;
+	float: left;
+}
+
+.card {
+	margin-bottom: 25px;
+}
+
+/*#addToCat {
+	padding: 10px;
+	background-color: blue;
+	border-radius: 10px;
+	text-decoration: none;
+	color: black;
+}*/
